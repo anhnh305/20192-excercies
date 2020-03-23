@@ -21,66 +21,72 @@ import java.util.logging.Logger;
  */
 public class Server {
 
-    public static void main(String[] args) throws IOException {
-        System.out.println("Running at 9999");
-        ServerSocket listener = new ServerSocket(9999);
-        int countClient = 0;
-        while (true) {
-            Socket clientSocket = listener.accept();
-            ConnectedThread newClient = new ConnectedThread(clientSocket, countClient);
-            newClient.start();
-        }
-    }
+	public static void main(String[] args) throws IOException {
+		System.out.println("Running at 9999");
+		ServerSocket listener = new ServerSocket(9999);
+		int countClient = 0;
+		while (true) {
+			Socket clientSocket = listener.accept();
+			ConnectedThread newClient = new ConnectedThread(clientSocket, countClient); // tao luong rieng de xuuy
+			newClient.start();
+		}
+	}
 }
 
 class ConnectedThread extends Thread {
 
-    Socket socket;
-    int id;
-    BufferedReader in;
-    PrintWriter out;
+	Socket socket;
+	int id;
+	BufferedReader in;
+	PrintWriter out;
 
-    ConnectedThread(Socket clientSocket, int numClients) throws IOException {
-        this.socket = clientSocket;
-        this.id = numClients;
-        System.out.println("Client " + socket + " connected! Client number " + id);
-    }
+	ConnectedThread(Socket clientSocket, int numClients) throws IOException {
+		this.socket = clientSocket;
+		this.id = numClients;
+		System.out.println("Client " + socket + " connected! Client number " + id);
+	}
 
-    @Override
-    public void run() {
-        try {
-            in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            out = new PrintWriter(socket.getOutputStream(), true);
-            out.println("Connected to server!");
-            while (true) {
-                String buf = in.readLine();
-                System.out.println("RECV: " + buf);
-                if (buf == null || buf.isEmpty()) {
-                    break;
-                }
-                String[] strArr = buf.split(" ");
-                Integer[] intArr = new Integer[strArr.length];
-                for (int i = 0; i < strArr.length; i++) {
-                    intArr[i] = Integer.parseInt(strArr[i]);
-                }
-                Integer[] intAns = new Sorter().sort(intArr);
-                String[] strAns = Arrays.stream(intAns).map((t) -> {
-                    return String.valueOf(t); //To change body of generated lambdas, choose Tools | Templates.
-                }).toArray(String[]::new);
-                out.println("ANS: " + Arrays.toString(strAns));
-            }
-        } catch (Exception e) {
-            System.out.println("Error: client " + id + "; message " + e.getMessage());
-        } finally {
-            try {
-                socket.close();
-            } catch (IOException ex) {
-                Logger.getLogger(ConnectedThread.class.getName()).log(Level.SEVERE, null, ex);
-            } finally {
-                System.out.println("Client " + id + " closed!");
-            }
-        }
+	@Override
+	public void run() {
+		try {
+			in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+			out = new PrintWriter(socket.getOutputStream(), true);
+			out.println("Connected to server!");
+			while (true) {
+				String buf = in.readLine(); // nhan du lieu tu client
+				System.out.println("RECV: " + buf);
 
-    }
+				// "8 7 65 0 8 6 0"
+				String[] strArr = buf.split(" ");// "8" "7" ...
+
+				int[] intArr = new int[strArr.length];
+				for (int i = 0; i < strArr.length; i++) {
+					intArr[i] = Integer.parseInt(strArr[i]); // chuyen string ve int
+				}
+
+				int[] intAns = Sorter.getInstance().sort(intArr);
+				System.out.println("after sort: " + Arrays.toString(intAns));
+
+				String ans = "ANS: ";
+				for (int i = 0; i < intAns.length; i++) {
+					ans = ans + intAns[i] + "; ";
+				}
+
+				out.println("FUNCTION ANS: " + ans);
+			}
+		} catch (Exception e) {
+			System.out.println("Error: client " + id + "; message " + e.getMessage());
+
+		} finally {
+			try {
+				socket.close();
+			} catch (IOException ex) {
+				System.out.println("Client error while close socket " + ex.getMessage());
+			} finally {
+				System.out.println("Client " + id + " closed!");
+			}
+		}
+
+	}
 
 }

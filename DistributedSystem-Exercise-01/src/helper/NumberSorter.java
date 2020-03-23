@@ -10,5 +10,5 @@ package helper;
  * @author thiennd
  */
 public interface NumberSorter {
-    public Integer[] sort(Integer[] input);
+    public int[] sort(int[] input);
 }

@@ -5,30 +5,39 @@
  */
 package client_server;
 
+import helper.BubleSort;
 import helper.NumberSorter;
+import helper.QuickSort;
+
 import java.util.Arrays;
 
 /**
  *
  * @author thiennd
  */
-public class Sorter implements NumberSorter {
+public class Sorter {
+	private static NumberSorter sortAlgorithm;
 
-    public Sorter() {
-    }
+	private static Sorter instance;
 
-    @Override
-    public Integer[] sort(Integer[] input) {
-        for (int i = 0; i < input.length - 1; i++) {
-            for (int j = i + 1; j < input.length; j++) {
-                if (input[i] < input[j]) {
-                    Integer temp = input[i];
-                    input[i] = input[j];
-                    input[j] = temp;
-                }
-            }
-        }
-        return input;
-    }
+	public static Sorter getInstance() {
+		if (instance == null) 
+			instance = new Sorter();
+	
+		return instance;
+	}
+
+	public Sorter() {
+		setAlgorithm();
+	}
+
+	public int[] sort(int[] input) {
+		return sortAlgorithm.sort(input);
+	}
+
+	private void setAlgorithm() {
+		sortAlgorithm = new QuickSort();
+		//sortAlgorithm = new BubleSort();
+	}
 
 }

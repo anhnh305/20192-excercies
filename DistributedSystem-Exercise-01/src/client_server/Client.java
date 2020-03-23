@@ -23,13 +23,13 @@ public class Client {
         BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
         PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
         Scanner scanner = new Scanner(System.in);
-        System.out.println(in.readLine());
+        System.out.println(in.readLine()); // in du lieu nhan tu sẻver 
         while (true) {
-            String buf = scanner.nextLine();
+            String buf = scanner.nextLine(); // doc tu ban phim 
             if (buf.equals(" ")) {
                 break;
             }
-            out.println(buf);
+            out.println(buf); // gui den server bang 
             System.out.println(in.readLine());
 
         }
