@@ -1,0 +1,11 @@
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.deps.json
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.runtimeconfig.json
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.runtimeconfig.dev.json
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.dll
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.pdb
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.csprojAssemblyReference.cache
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.AssemblyInfoInputs.cache
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.AssemblyInfo.cs
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.dll
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.pdb
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.csproj.CoreCompileInputs.cache
