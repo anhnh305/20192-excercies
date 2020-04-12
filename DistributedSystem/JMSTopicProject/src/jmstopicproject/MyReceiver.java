@@ -29,6 +29,7 @@ public class MyReceiver {
             //3) get the Topic object
             Topic t = (Topic) ctx.lookup("myTopic");
 
+           
             //4)create TopicSubscriber
             TopicSubscriber receiver = ses.createSubscriber(t);
 

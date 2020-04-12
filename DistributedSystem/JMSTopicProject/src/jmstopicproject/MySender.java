@@ -49,6 +49,7 @@ public class MySender {
 
                 //7) send message
                 publisher.publish(msg);
+                
                 System.out.println("Message successfully sent.");
             }
             
