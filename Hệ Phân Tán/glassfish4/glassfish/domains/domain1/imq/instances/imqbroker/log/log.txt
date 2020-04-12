@@ -1,0 +1,248 @@
+[#|2020-04-12T11:01:00.081+0700|WARNING|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[S2004]: Log output channel com.sun.messaging.jmq.util.log.SysLogHandler is disabled: no imqutil in java.library.path|#]
+
+
+[#|2020-04-12T11:01:00.097+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|
+================================================================================
+Message Queue 5.1.1
+Oracle
+Version:  5.1.1  (Build 2-c)
+Compile:  March 17 2015 1045
+
+Copyright (c) 2013, Oracle and/or its affiliates.  All rights reserved.
+================================================================================
+Java Runtime: 1.8.0_241 Oracle Corporation /Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre
+|#]
+
+
+[#|2020-04-12T11:01:00.130+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|   IMQ_HOME=/Users/thiennd/Desktop/study-documents/20192/20192-excercies/Hệ Phân Tán/glassfish4/mq
+|#]
+
+
+[#|2020-04-12T11:01:00.130+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|IMQ_VARHOME=/Users/thiennd/Desktop/study-documents/20192/20192-excercies/Hệ Phân Tán/glassfish4/glassfish/domains/domain1/imq
+|#]
+
+
+[#|2020-04-12T11:01:00.131+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|Mac OS X 10.14.6 x86_64 192.168.1.10 (4 cpu) thiennd
+|#]
+
+
+[#|2020-04-12T11:01:00.133+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|Java Heap Size: max=466432k, current=313856k
+|#]
+
+
+[#|2020-04-12T11:01:00.133+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|Arguments: -port 7676 -name imqbroker -nobind -imqhome /Users/thiennd/Desktop/study-documents/20192/20192-excercies/Hệ Phân Tán/glassfish4/mq -varhome /Users/thiennd/Desktop/study-documents/20192/20192-excercies/Hệ Phân Tán/glassfish4/glassfish/domains/domain1/imq -libhome /Users/thiennd/Desktop/study-documents/20192/20192-excercies/Hệ Phân Tán/glassfish4/mq/lib -useRmiRegistry -rmiRegistryPort 8686 -save -silent
+|#]
+
+
+[#|2020-04-12T11:01:00.133+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|JMSRA BrokerProps: imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.service.activate=jmsdirect, imq.imqcmd.password=*****, imq.jmsra.managed=true, imq.cluster.nowaitForMasterBroker=true
+|#]
+
+
+[#|2020-04-12T11:01:00.133+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|Broker Properties: imq.service.activate=jmsdirect, imq.cluster.nowaitForMasterBroker=true, imq.jmx.rmiregistry.use=true, imq.portmapper.port=7676, imq.jmsra.managed=true, imq.instancename=imqbroker, java.util.logging.ConsoleHandler.level=OFF, imq.imqcmd.password=*****, imq.jmx.rmiregistry.port=8686, imq.service.runtimeAdd=mqdirect2, imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.jmx.rmiregistry.start=false, imq.portmapper.bind=false
+|#]
+
+
+[#|2020-04-12T11:01:00.133+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|Embedded Broker 
+|#]
+
+
+[#|2020-04-12T11:01:00.169+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1522]: Create thread pool portmapper for (4, 4)(60s) service
+|#]
+
+
+[#|2020-04-12T11:01:00.196+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|imq.persist.minimizeWrites=true
+|#]
+
+
+[#|2020-04-12T11:01:00.196+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|imq.persist.file.minimizeWrites=false
+|#]
+
+
+[#|2020-04-12T11:01:00.222+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1060]: Loading persistent data...
+|#]
+
+
+[#|2020-04-12T11:01:00.223+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|Using built-in file-based persistent store: /Users/thiennd/Desktop/study-documents/20192/20192-excercies/Hệ Phân Tán/glassfish4/glassfish/domains/domain1/imq/instances/imqbroker/
+|#]
+
+
+[#|2020-04-12T11:01:00.323+0700|WARNING|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|WARNING Existing file: incompleteTxnStorehas older cookie version than current version. Current version = 1. Original file version = 0
+|#]
+
+
+[#|2020-04-12T11:01:00.353+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B2219]: Broker property setting imq.persist.minimizeWritesLevel2=true will be ignored
+|#]
+
+
+[#|2020-04-12T11:01:00.375+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1041]: Cluster initialization successful.
+|#]
+
+
+[#|2020-04-12T11:01:00.462+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1013]: Auto Creation of Queues is enabled
+|#]
+
+
+[#|2020-04-12T11:01:00.512+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|new transaction log enabled
+|#]
+
+
+[#|2020-04-12T11:01:00.512+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|sync writes to disk = false
+|#]
+
+
+[#|2020-04-12T11:01:00.512+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|logNonTransactedMsgSend = false
+|#]
+
+
+[#|2020-04-12T11:01:00.513+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|logNonTransactedMsgAck = false
+|#]
+
+
+[#|2020-04-12T11:01:00.513+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1392]: Opening transaction log with file mode rw, maximum size 10,485,760 bytes
+|#]
+
+
+[#|2020-04-12T11:01:00.537+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1136]: Processing stored transactions
+|#]
+
+
+[#|2020-04-12T11:01:00.538+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1390]: Loading of transactions has been successfully completed
+|#]
+
+
+[#|2020-04-12T11:01:00.538+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1434]: Retrieving stored destinations
+|#]
+
+
+[#|2020-04-12T11:01:00.538+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1503]: Retrieved 0 destinations from store
+|#]
+
+
+[#|2020-04-12T11:01:00.540+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1144]: Creating Dead Message Queue
+|#]
+
+
+[#|2020-04-12T11:01:00.564+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1158]: Administrator has created destination mq.sys.dmq [Queue]
+|#]
+
+
+[#|2020-04-12T11:01:00.701+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1239]: Using platform MBean server
+|#]
+
+
+[#|2020-04-12T11:01:00.748+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1234]: JMX Connector Server jmxrmi started successfully with url service:jmx:rmi://thiennd-macpro.local/jndi/rmi://192.168.1.10:8686/192.168.1.10/7676/jmxrmi
+|#]
+
+
+[#|2020-04-12T11:01:00.964+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1004]: Starting the admin service using tcp(host = *, port=0, mode=dedicated) with min threads 4 and max threads of 10 
+|#]
+
+
+[#|2020-04-12T11:01:00.965+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1227]: Using file user repository for admin service connection authentication
+|#]
+
+
+[#|2020-04-12T11:01:00.993+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1004]: Starting the jms service using tcp(host = *, port=0, mode=dedicated) with min threads 10 and max threads of 1000 
+|#]
+
+
+[#|2020-04-12T11:01:00.994+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1227]: Using file user repository for jms service connection authentication
+|#]
+
+
+[#|2020-04-12T11:01:01.001+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1004]: Starting the mqdirect2 service using in-process connections with min threads 0 and max threads of 0 
+|#]
+
+
+[#|2020-04-12T11:01:01.002+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1227]: Using file user repository for mqdirect2 service connection authentication
+|#]
+
+
+[#|2020-04-12T11:01:01.003+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1004]: Starting the jmsdirect service using  with min threads 0 and max threads of 0 
+|#]
+
+
+[#|2020-04-12T11:01:01.004+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1227]: Using file user repository for jmsdirect service connection authentication
+|#]
+
+
+[#|2020-04-12T11:01:01.020+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1004]: Starting the cluster service using tcp [ 0.0.0.0/0.0.0.0:50294 ] with min threads 1 and max threads of 1 
+|#]
+
+
+[#|2020-04-12T11:01:01.020+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1228]: Cluster ping interval is 60 seconds
+|#]
+
+
+[#|2020-04-12T11:01:01.028+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=132;_ThreadName=pool-30-thread-1;|[B1039]: Broker "imqbroker@192.168.1.10:7676" ready.
+|#]
+
+
+[#|2020-04-12T11:19:15.182+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=160;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:50607->jms:50292. Count: service=1 broker=1
+|#]
+
+
+[#|2020-04-12T11:19:15.569+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=160;_ThreadName=Thread-jms[0];|[B1132]: Auto-creating destination myTopic [Topic] 
+|#]
+
+
+[#|2020-04-12T11:19:21.983+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=160;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:50607->jms:50292 because "[B0061]: Client exited without closing connections". Count: service=0 broker=0
+|#]
+
+
+[#|2020-04-12T11:19:22.358+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=160;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:50613->jms:50292. Count: service=1 broker=1
+|#]
+
+
+[#|2020-04-12T11:19:33.376+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=160;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:50613->jms:50292 because "[B0061]: Client exited without closing connections". Count: service=0 broker=0
+|#]
+
+
+[#|2020-04-12T11:20:00.486+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=160;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:50627->jms:50292. Count: service=1 broker=1
+|#]
+
+
+[#|2020-04-12T11:20:10.471+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=163;_ThreadName=Thread-jms[2];|[B1065]: Accepting: guest@127.0.0.1:50633->jms:50292. Count: service=2 broker=2
+|#]
+
+
+[#|2020-04-12T11:20:13.565+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=163;_ThreadName=Thread-jms[2];|[B1066]:   Closing: guest@127.0.0.1:50633->jms:50292 because "[B0061]: Client exited without closing connections". Count: service=1 broker=1
+|#]
+
+
+[#|2020-04-12T11:21:56.082+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=163;_ThreadName=Thread-jms[2];|[B1065]: Accepting: guest@127.0.0.1:50685->jms:50292. Count: service=2 broker=2
+|#]
+
+
+[#|2020-04-12T11:21:59.880+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=166;_ThreadName=Thread-jms[4];|[B1065]: Accepting: guest@127.0.0.1:50690->jms:50292. Count: service=3 broker=3
+|#]
+
+
+[#|2020-04-12T11:24:07.754+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=166;_ThreadName=Thread-jms[4];|[B1066]:   Closing: guest@127.0.0.1:50690->jms:50292 because "[B0061]: Client exited without closing connections". Count: service=2 broker=2
+|#]
+
+
+[#|2020-04-12T11:24:21.601+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=163;_ThreadName=Thread-jms[2];|[B1066]:   Closing: guest@127.0.0.1:50685->jms:50292 because "[B0061]: Client exited without closing connections". Count: service=1 broker=1
+|#]
+
+
+[#|2020-04-12T11:24:21.601+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=160;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:50627->jms:50292 because "[B0061]: Client exited without closing connections". Count: service=0 broker=0
+|#]
+
+
+[#|2020-04-12T11:26:21.605+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=142;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination myTopic [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2020-04-12T11:26:21.606+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=142;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination myTopic [Topic] 
+|#]
+
+
+[#|2020-04-12T11:26:21.606+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=142;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination myTopic [Topic]
+|#]
+
+
+[#|2020-04-12T11:26:21.609+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=142;_ThreadName=MQTimer-Thread;|[B1159]: Destination myTopic [Topic] has been destroyed
+|#]
+
+
