@@ -1,0 +1,11 @@
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/bin/Debug/netcoreapp3.1/Assignment2.deps.json
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/bin/Debug/netcoreapp3.1/Assignment2.runtimeconfig.json
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/bin/Debug/netcoreapp3.1/Assignment2.runtimeconfig.dev.json
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/bin/Debug/netcoreapp3.1/Assignment2.dll
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/bin/Debug/netcoreapp3.1/Assignment2.pdb
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/obj/Debug/netcoreapp3.1/Assignment2.csprojAssemblyReference.cache
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/obj/Debug/netcoreapp3.1/Assignment2.csproj.CoreCompileInputs.cache
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/obj/Debug/netcoreapp3.1/Assignment2.AssemblyInfoInputs.cache
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/obj/Debug/netcoreapp3.1/Assignment2.AssemblyInfo.cs
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/obj/Debug/netcoreapp3.1/Assignment2.dll
+/Users/thiennd/Desktop/study-documents/20192/20192-excercies/CSharpDotNet/Assignment2/obj/Debug/netcoreapp3.1/Assignment2.pdb
