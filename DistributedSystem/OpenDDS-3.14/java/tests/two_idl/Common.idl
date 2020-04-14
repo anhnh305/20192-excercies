@@ -1,3 +1,0 @@
-struct Quote {
-    string line;
-};

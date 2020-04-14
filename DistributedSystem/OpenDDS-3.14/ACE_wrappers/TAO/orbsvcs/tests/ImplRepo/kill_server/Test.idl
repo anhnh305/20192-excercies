@@ -1,8 +1,0 @@
-// $Id$
-
-interface Test
-{
-
-  short get_server_num ();
-
-};
