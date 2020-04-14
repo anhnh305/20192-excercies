@@ -794,3 +794,49 @@ Java Runtime: 1.8.0_241 Oracle Corporation /Library/Java/JavaVirtualMachines/jdk
 |#]
 
 
+[#|2020-04-12T19:50:28.231+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=152;_ThreadName=Thread-jms[2];|[B1066]:   Closing: guest@127.0.0.1:53496->jms:53485 because "[B0061]: Client exited without closing connections". Count: service=0 broker=0
+|#]
+
+
+[#|2020-04-12T19:50:33.090+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=196;_ThreadName=Thread-49;|[B1047]: Shutting down broker...[BrokerProcess:Thread[Thread-49,5,main]]
+|#]
+
+
+[#|2020-04-12T19:50:33.100+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=196;_ThreadName=Thread-49;|[B1077]: Broadcast good-bye to all connections ...
+|#]
+
+
+[#|2020-04-12T19:50:33.101+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=196;_ThreadName=Thread-49;|[B1078]: Flushing good-bye messages ...
+|#]
+
+
+[#|2020-04-12T19:50:33.101+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=196;_ThreadName=Thread-49;|[B1007]: Stopping Service admin with protocol tcp(host = *, port=0, mode=dedicated)
+|#]
+
+
+[#|2020-04-12T19:50:33.101+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=196;_ThreadName=Thread-49;|[B1007]: Stopping Service jmsdirect with protocol 
+|#]
+
+
+[#|2020-04-12T19:50:33.102+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=196;_ThreadName=Thread-49;|[B1007]: Stopping Service mqdirect2 with protocol none
+|#]
+
+
+[#|2020-04-12T19:50:33.102+0700|INFO|5.1.1|imq.log.Logger|_ThreadID=196;_ThreadName=Thread-49;|[B1007]: Stopping Service jms with protocol tcp(host = *, port=0, mode=dedicated)
+|#]
+
+
+[#|2020-04-12T19:50:33.120+0700|WARNING|5.1.1|imq.log.Logger|_ThreadID=196;_ThreadName=Thread-49;|WARNING Caught exception when stopping JMX Connector Server jmxrmi:
+java.io.IOException: Cannot bind to URL: javax.naming.CommunicationException [Root exception is java.rmi.NoSuchObjectException: no such object in table]
+|#]
+
+
+[#|2020-04-12T19:50:33.124+0700|WARNING|5.1.1|imq.log.Logger|_ThreadID=196;_ThreadName=Thread-49;|WARNING [B2138]: Caught exception when stopping JMX Agent:
+java.io.IOException: Cannot bind to URL: javax.naming.CommunicationException [Root exception is java.rmi.NoSuchObjectException: no such object in table]
+|#]
+
+
+[#|2020-04-12T19:50:36.886+0700|FORCE|5.1.1|imq.log.Logger|_ThreadID=196;_ThreadName=Thread-49;|[B1048]: Shutdown of broker complete.
+|#]
+
+
